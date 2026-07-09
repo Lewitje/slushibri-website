@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — Slushibri",
@@ -266,11 +267,7 @@ export default function PrivacyPage() {
         </div>
       </main>
 
-      <footer className="border-t border-border">
-        <div className="mx-auto max-w-2xl px-6 py-6 text-sm text-muted">
-          Made for Kolibri
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
